@@ -1,0 +1,20 @@
+body.welcome-page {
+    background-image: url("../images/imgMeLoMandasBK.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar, .welcome-card, .footer {
+    background-color: rgba(255, 255, 255, 0.50) !important;
+    backdrop-filter: blur(4px);
+}
+
+.footer {
+    font-size: 1.2em;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

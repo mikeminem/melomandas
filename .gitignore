@@ -1,0 +1,17 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias y artefactos generados en la raíz
+/vendor/
+/node_modules/
+/package-lock.json
+
+# Datos locales de Docker/MySQL
+/mysql/
+
+# Archivos específicos del proyecto en la raíz
+/.env
+/.env.*
+!/.env.example
+
