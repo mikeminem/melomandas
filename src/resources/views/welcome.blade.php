@@ -8,7 +8,7 @@
             <div class="col-12 col-md-8 col-lg-6">
                 <div class="card shadow-sm border-0 welcome-card">
                     <div class="card-body p-5 text-center">
-                        <h1 class="h4 fw-bold mb-1">¿Se te antojó algo?</h1>
+                        <h1 class="h4 fw-bold mb-4">¿Qué se te antoja <b>hoy</b>?</h1>
                         <h2 class="text-muted mb-4"> ~ ME LO MANDAS ~</h2>
 
                         <div class="d-flex justify-content-center gap-4 mb-4" style="font-size: 2.625rem;">
