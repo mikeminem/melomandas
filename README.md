@@ -4,14 +4,18 @@ https://platzi.com/tutoriales/2066-docker/10667-docker-para-laravel-mysql/
 
 
 ## Docker usage
+
 create containers 
-**docker-compose build**
+
+`docker-compose build`
 
 to run the containers execute
-**docker-compose up -d**
+
+`docker-compose up -d`
 
 to stop all containers execute 
-**docker-compose down**
+
+`docker-compose down`
 
 
 ## Docker configurations
@@ -33,24 +37,27 @@ location ~ \.php$ {
 `
 
 execute bash inside the container
-docker exec -it php /bin/sh
+
+`docker exec -it php /bin/sh`
 
 ## Laravel commands what you most need to execute
+
 Inside the <php_container> container
-docker exec -it <php_container> /bin/sh
+
+`docker exec -it <php_container> /bin/sh`
 
 
 ## Create a Laravel prooject
 one all is working with docker, now you need to create a new laravel project, for that you need to execute
 
-composer create-project laravel/laravel:^11.0 . 
+`composer create-project laravel/laravel:^11.0 .`
 
 if is necessary use flag --force if the directory is not empty
 
 
 **you need to execute the following commands to complete the setup**
-1) composer install
-2) php artisan key:generate
+1) 'composer install`
+2) `php artisan key:generate`
 
 
 ## DB configuration
@@ -70,10 +77,11 @@ DB_PASSWORD=secret
 ## Auth in laravel
 If you want to accelerate the development procedure, you can user the classic style for make auth
 
-1) composer require laravel/ui --dev
-2) php artisan ui bootstrap --auth
-3) npm install && npm run build]
-4) php artisan migrate
+1) `composer require laravel/ui --dev`
+2) `php artisan ui bootstrap --auth`
+3) `npm install && npm run build]`
+4) `php artisan migrate`
+
 
 
 
