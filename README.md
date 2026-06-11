@@ -84,7 +84,16 @@ If you want to accelerate the development procedure, you can user the classic st
 
 
 
+## Requirements
+As a advance project, this is built in the same way as other complex projects, and for that reason it needs third party packages to improve the functionality and security as well.
+
+PHP/Laravel packages
+
+to handle in the better way of HTML tables and the whole functionality
+
+`composer require yajra/laravel-datatables-oracle`
 
 
+`add more packages here as needed, just add the package and a brief description`
 
 
